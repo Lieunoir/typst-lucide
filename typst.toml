@@ -7,4 +7,4 @@ license = "MIT"
 description = "A Typst library for Lucide icons."
 repository = "https://github.com/Lieunoir/typst-lucide"
 categories = ["components", "integration", "utility"]
-exclude = ["pyproject.toml", "uv.lock", "generator.py", "example.typ", "example.svg"]
+exclude = ["example.svg"]
