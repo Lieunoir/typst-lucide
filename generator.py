@@ -20,8 +20,11 @@ def main():
                     name, extension = path.split(".")
                     with z.open(full_path) as file:
                         f.write('  "{}": "'.format(name))
-                        for line in file.readlines()[11:-1]:
-                            f.write(line.decode().strip().replace('"', '\\"'))
+                        text = file.read().decode()
+                        start = text.find('>')+1
+                        end = text.rfind('<')
+                        for line in text[start:end].splitlines():
+                            f.write(line.strip().replace('"', '\\"'))
                         f.write('",\n')
         f.write(")\n")
 
