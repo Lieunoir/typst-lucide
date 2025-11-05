@@ -1,0 +1,6 @@
+[project]
+name = "typst-lucide-generator"
+version = "0.1.0"
+description = "Generates lib-map.typ"
+requires-python = ">=3.11"
+dependencies = []
