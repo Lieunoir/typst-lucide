@@ -2,4 +2,4 @@
 #set page(width: auto, height: auto, margin: 5pt)
 #import "./lib.typ": *
 
-Turn left : #lucide-inline("corner-up-left")
+Turn left : #lucide-icon("corner-up-left")
