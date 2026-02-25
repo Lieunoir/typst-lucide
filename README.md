@@ -17,3 +17,8 @@ Turn left : #lucide-icon("corner-up-left")
 ```
 
 ![screenshot](./example.svg)
+
+## Update
+
+Updating this package is quite easy, you just need to bump the version in the
+[`generator.py`](./generator.py) script and then run `uv run python generator.py`.
