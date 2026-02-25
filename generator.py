@@ -2,7 +2,7 @@ import urllib.request
 import zipfile
 import json
 
-release = "0.552.0"
+release = "0.575.0"
 url = "https://github.com/lucide-icons/lucide/releases/download/{}/lucide-font-{}.zip".format(
     release, release
 )
